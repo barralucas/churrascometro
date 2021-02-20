@@ -4,3 +4,18 @@
 // crianças valem por 0,5
 
 
+let inputAdultos = document.getElementById("adultos");
+let inputCriancas = document.getElementById("criancas");
+let inputDuracao = document.getElementById("duracao");
+
+let resultado = document.getElementById("resultado");
+
+function calcular(){
+    console.log("calculando...");
+
+    let adultos = inputAdultos.value;
+    let criancas = inputCriancas.value;
+
+
+    let qtdTotalCarne = (400 * adultos) + (400/2 * criancas); 
+}
